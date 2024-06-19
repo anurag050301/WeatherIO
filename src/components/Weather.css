@@ -34,12 +34,17 @@
   display: grid;
   place-items: center;
 }
-.gradient-sunny {
+.weather-icon {
     height: 150px;
     width: 150px;
     margin: 30px 0;
     shape-rendering: crispEdges;
     fill: rgb(255, 191, 0);
+}
+.weather-description{
+    color: #fff;
+    font-size: 20px;
+    line-height: 1;
 }
 .temperature{
     color: #fff;
@@ -51,7 +56,7 @@
     font-size: 40px;
 }
 .weather-data{
-    width: 100%;
+    width: 98%;
     margin-top: 20px;
     color: #fff;
     display: flex;
@@ -59,13 +64,13 @@
 }
 .weather-data .col{
     display: flex;
-    align-items: flex-start;
-    gap: 4px;
+    align-items: center;
+    gap: 10px;
     font-size: 30px;
 }
 .weather-data .col span{
     display: block;
-    font-size: 16px;
+    font-size: 18px;
 }
 .show-logo{
     width: 26px;
